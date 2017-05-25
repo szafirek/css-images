@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 2em;
+  background-color: #eeeeee;
+}
+main {
+  margin: 0 auto;
+  max-width: 75em;
+  height: 60em;
+  background-color: #ffffff;
+  padding: 2em;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  background-color: #8ddee2;
+  z-index: 1;
+}
+.sun {
+  position: absolute;
+  width: 7.2em;
+  height: 7.2em;
+  border-radius: 50%;
+  border: 15px solid #b0e4e2;
+  background-color: #fff3e3;
+  left: 41em;
+  top: 10.5em;
+}
+.cloud div {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff3e3;
+}
+.cloud div:nth-child(odd) {
+  width: 3.4em;
+  height: 5em;
+}
+.cloud div:nth-child(even) {
+  width: 4.6em;
+  height: 6.2em;
+}
+.left-cloud {
+  overflow: hidden;
+  position: absolute;
+  width: 10.5em;
+  height: 3.2em;
+  z-index: 2;
+  left: 8.6em;
+  top: 12.1em;
+}
+.cloud-1 {
+  left: 0;
+  top: 1.1em;
+}
+.cloud-2 {
+  left: 3em;
+  top: 0;
+}
+.cloud-3 {
+  left: 7.1em;
+  top: 1.1em;
+}
